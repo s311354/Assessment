@@ -4,6 +4,14 @@
 
 This repository is useful as a interview assessment with Python 3.7+.
 
+### Prerequisite Packages ###
+
+The convenient and safy way to execute this test scope is by installing the dependencies. Please run the following command in the terminal.
+
+```
+$ pip install -r requirements.txt
+```
+
 ### Quick Start
 
 ```
@@ -66,14 +74,6 @@ optional arguments:
 │   ├── __init__.py
 │   └── warranty_defect.xlsx
 └── testplan.py
-```
-
-### Prerequisite Packages ###
-
-The convenient and safy way to execute this test scope is by installing the dependencies. Please run the following command in the terminal.
-
-```
-$ pip install -r requirements.txt
 ```
 
 ### Defect References ###
