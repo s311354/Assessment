@@ -1,7 +1,6 @@
-import requests
 import time
-from typing import List
 import os
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By

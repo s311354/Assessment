@@ -1,11 +1,10 @@
-from testplan import TestPlan
 import argparse
-from typing import List
 import threading
-import pytest
 import logging
 import pandas as pd
-import queue
+
+from typing import List
+from testplan import TestPlan
 from collections import defaultdict
 
 
@@ -27,8 +26,8 @@ def create_parser() -> argparse.ArgumentParser:
         type=str,
         nargs='+',
         help='If a single serial number is passed in, then we assume it contains a '
-        'semicolon-separated list of files that we expect this script to '
-        'output. If multiple serial numbers are passed in, then we assume stocks '
+        'semicolon-separated list of serial numbers that we expect this script to '
+        'output. If multiple serial numbers are passed in, then we assume serial numbers '
         'are listed directly as arguments.')
     parser.add_argument(
         '--browser_type',
